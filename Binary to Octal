@@ -1,0 +1,5 @@
+t=int(input())
+for _ in range(t):
+    n=input()
+    res=int(n,2)
+    print(oct(res).split('0o')[1])
